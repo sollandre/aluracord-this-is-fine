@@ -1,5 +1,4 @@
 import { Box, Button, Text, TextField, Image } from '@skynexui/components';
-import NextImage from 'next/image';
 import appConfig from "../config.json";
 
 function GlobalStyle() {
@@ -163,7 +162,6 @@ function HomePage() {
                 marginBottom: '1.6rem',
                 border: '4px',
                 padding:'2px',
-                // borderColor: `conic-gradient(#E9A320,#D95525, #E9A320, #524A3D)`
                 background:'linear-gradient(#E9A320,#D95525, #E9A320)'
               }}
         >
@@ -171,10 +169,6 @@ function HomePage() {
             src={`https://github.com/${username}.png`} 
             styleSheet={{
               borderRadius: '50%',
-              // marginBottom: '1.6rem',
-              // border: '4px',
-              // borderColor: `conic-gradient(#E9A320,#D95525, #E9A320, #524A3D)`
-              // borderColor:'linear-gradient(yellow, red)'
             }}
           />
         </Box>
